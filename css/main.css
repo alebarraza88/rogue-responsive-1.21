@@ -1,7 +1,10 @@
 /******** GLOBAL STYLES ********/
+html{
+	font-size: 16px;
+}
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: .9em;
 	color: #000000;
 }
 
@@ -24,19 +27,19 @@ h4 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 1.875em;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
 h4 {
-	font-size: 12px;
+	font-size: .75em;
 }
 
 p {
@@ -56,7 +59,7 @@ header {
 header h1 {
 	width:100%;
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 20px;
 }
 
 header h1 span {
@@ -77,7 +80,7 @@ header nav ul {
 header nav ul li {
 	width:100%;
 	display: inline-block;
-	font-size: 14px;
+	font-size: .875em;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 0 10px;
@@ -166,5 +169,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: 14px;
+	font-size: .875em;
 }
