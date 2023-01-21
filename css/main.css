@@ -54,12 +54,14 @@ header {
 	display:flex;
 	justify-content:center;
 	text-align:center;
+	
 }
 
 header h1 {
 	width:100%;
 	margin: 0;
-	padding: 38px 0 20px;
+	padding: 38px 0 20px 0;
+	border-bottom: 3px solid #77A466;
 }
 
 header h1 span {
@@ -68,7 +70,7 @@ header h1 span {
 
 header nav {
 	
-	padding: 46px 0;
+	padding: 20px 0 20px 0;
 }
 
 header nav ul {
@@ -83,7 +85,7 @@ header nav ul li {
 	font-size: .875em;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding:  10px 0;
 }
 
 header nav ul li a {
@@ -123,8 +125,7 @@ header nav ul li a {
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	float: left;
-	padding: 0 40px;
+	
 }
 
 .section-one {
@@ -152,7 +153,7 @@ header nav ul li a {
 
 .menu-list li {
 	color: #45610E;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 36px;
 }
 /***** starting width values>> section1:29%, section2:42%,section3:29% *****/
